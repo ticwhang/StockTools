@@ -50,4 +50,17 @@ print(Dowickers)
 ['AAPL', 'AMGN', 'AXP', 'BA', 'CAT', 'CRM', 'CSCO', 'CVX', 'DIS', 'DOW', 'GS', 'HD', 'HON', 'IBM', 'INTC', 'JNJ', 'JPM', 'KO', 'MCD', 'MMM', 'MRK', 'MSFT', 'NKE', 'PG', 'TRV', 'UNH', 'V', 'VZ', 'WBA', 'WMT']
 ```
 
+取得股票指定日期的價格
+```
+import tools
+
+price = tools.getPriceByDate('SPY','2020-02-22')
+print(price)
+import tools
+
+price = tools.getPriceByDate('SPY','2020-02-22')
+print(price)
+```
+
+
 
