@@ -56,10 +56,9 @@ import tools
 
 price = tools.getPriceByDate('SPY','2020-02-22')
 print(price)
-import tools
 
-price = tools.getPriceByDate('SPY','2020-02-22')
-print(price)
+[*********************100%***********************]  1 of 1 completed
+333.4800109863281
 ```
 
 
