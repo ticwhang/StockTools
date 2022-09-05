@@ -50,7 +50,7 @@ print(Dowickers)
 ['AAPL', 'AMGN', 'AXP', 'BA', 'CAT', 'CRM', 'CSCO', 'CVX', 'DIS', 'DOW', 'GS', 'HD', 'HON', 'IBM', 'INTC', 'JNJ', 'JPM', 'KO', 'MCD', 'MMM', 'MRK', 'MSFT', 'NKE', 'PG', 'TRV', 'UNH', 'V', 'VZ', 'WBA', 'WMT']
 ```
 
-取得股票指定日期的價格
+取得股票指定日期的價格(當日收盤價)
 ```
 import tools
 
@@ -60,6 +60,16 @@ print(price)
 [*********************100%***********************]  1 of 1 completed
 333.4800109863281
 ```
+取得股票在指定時間內價格變化百分比
 
+```
+import tools
+
+priceChangePercent = tools.getPriceChangePercent('SPY','2020-02-19','2020-05-20')
+print(priceChangePercent)
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+-13.292551392885008
+```
 
 
